@@ -4,7 +4,7 @@ import './App.css';
 //import RaisedButton from 'material-ui/RaisedButton';
 import MainMenu from './components/mainMenu/MainMenu';
 import Routes from './routes';
-import NavBar from './components/navigation/NavBar';
+
 
 
 class App extends Component {

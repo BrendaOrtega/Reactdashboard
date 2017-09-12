@@ -1,6 +1,9 @@
 p, h3, h4, h5{
 	font-family: Nova;
 }
+.indications{
+	margin-bottom: 40px;
+}
 .text_asesor{
 	width: 50%;
 	text-align: left;
@@ -8,13 +11,23 @@ p, h3, h4, h5{
 }
 .text_asesor h3{
 	font-weight: bolder;
+
 }
 .img_asesor{
-	width: 50%;
-	padding: 5% 2%;
+	width:100%;
+	height:500px;
+	background-image: url('https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+	background-size: cover;
+}
+.img_asesor p{
+	color:white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
 }
 .flex{
 	display: inline-flex;
+
 }
 .barra{
 	width: 100%;
@@ -23,25 +36,49 @@ p, h3, h4, h5{
 	margin-bottom: 40px;
 }
 .inp{
-	width: 40%;
+	width: 90%;
+	height:30px;
+	margin-left: 5%;
 	border-radius: 3px;
 	border:1px solid #999 ;
 
 
 }
 .edo{
-	width: 40%;
+	width: 90%;
+	height:30px;
+	margin-left: 5%;
 	border-radius: 3px;
+	background-color: ;
 	padding:7px;
 	border:1px solid #999 ;
 }
-.form_asesor{
-	margin-bottom: 40px;
+.box_rect{
+	display: flex;
+	flex-wrap: wrap;
 }
-.form_asesor button{
+.rect_bar{
+	background-color: #ee891f;
+	width:300px;
+	height:180px;
+	flex-grow: 1;
+	color:white;
+	padding: 0 5px;
+	border:1px solid white;
+}
+.form_asesor{
+	margin-bottom: 10px;
+	margin-top: 50px;
+	text-align: left;
+
+}
+.form_asesor h3{
+	margin-left: 50px;
+}
+.send{
 	width: 10%;
 	padding: 3px 5px;
-	    background-color: #57658E;
+	background-color: #57658E;
 	opacity: .8;
 	border-radius: 2px;
 	border:none;
@@ -49,4 +86,20 @@ p, h3, h4, h5{
 	font-size: 15px;
 	margin-top: 40px;
 	transition: all 1s ease;
+}
+.recuadro{
+	display: flex;
+}
+.form_cuadro{
+	width:500px;
+	flex-grow: 1;
+}
+.form_ct{
+	width:90%;
+}
+.tx_area{
+	height:130px;
+	border-radius: 3px;
+	border:1px solid #999 ;
+	margin-left: 5%;
 }

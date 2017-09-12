@@ -14,7 +14,7 @@ class Invitacion extends Component{
 					
 					<div className='text_app'>
 						<h2>Descarga la app Móvil</h2>
-						<span>DIPRA + Plan B</span>
+						<span>Plan B</span>
 						<p>Te ofrece la app móvil que te ayudará a mejorar tu vida financiera, además de ofrecerte información sobre los servicios adquiridos, fechas de renovación y números de emergencia</p>
 						<div className='tiendas'>
 							<img className='store' src={Android}/>
