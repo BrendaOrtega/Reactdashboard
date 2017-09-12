@@ -87,7 +87,7 @@ p, h3, h4, h5{
 	margin-top: 40px;
 	transition: all 1s ease;
 }
-.recuadro{
+.recuadros{
 	display: flex;
 }
 .form_cuadro{

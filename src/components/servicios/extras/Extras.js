@@ -49,7 +49,7 @@ class Extras extends Component{
 						</div>
 					</div>
 					 <div className='img_serv'>
-					  <img className='img_req' src='https://images.pexels.com/photos/508056/pexels-photo-508056.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'  alt='servicio'/>
+					  <img className='img_req' src='https://images.pexels.com/photos/159991/pexels-photo-159991.jpeg?h=350&auto=compress&cs=tinysrgb'  alt='servicio'/>
 					</div>
 				</div>
 				<div className='box_product'>

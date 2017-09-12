@@ -83,7 +83,7 @@ class Integrate extends Component{
 				<div className="indications">
 				<div className='form_asesor'>
 					<h3>Solicita información de forma inmediata:</h3>
-					<form method="post" action="." className='recuadro' name="sentMessage" id="contactForm">
+					<form method="post" action="." className='recuadros' name="sentMessage" id="contactForm">
 						<div className="form_cuadro">
 						<input name="nombre" type="name" className="inp form-ct" placeholder=" Nombre" id="nombre" required data-validation-required-message="Please enter your email address." />
 				        <p className="help-block text-danger"></p>
