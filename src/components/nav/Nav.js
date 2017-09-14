@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import {Avatar, Popover, MenuItem , Menu} from 'material-ui';
 import logo from '../../assets/logodipra.png';
 // import {signOut} from '../../../Api/firebase';
+import toastr from 'toastr';
 
 import IconMenu from 'material-ui/IconMenu';
 import IconButton from 'material-ui/IconButton';
@@ -83,8 +84,10 @@ class MainBar extends Component{
                     <span   style={{color:'white'}}>{"  "}</span>
                     {!user && <Link className='pestana'
                         style={styles.elLink}
-                        to="/login" >
-                        Iniciar
+                        to="/"
+                        onClick={()=>toastr.warning("Proximamente")}
+                         >
+                        Iniciar Sesión
                     </Link>}
 
                     {
